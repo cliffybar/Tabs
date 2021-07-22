@@ -19,7 +19,7 @@ function Cards(props) {
       {cardData.map((data, idx) => (
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={rose}/>
+            <Card.Img variant="top" src={rose} />
             <Card.Body>
               <Card.Title>
                 {data.firstName} {data.lastName}
@@ -35,8 +35,8 @@ function Cards(props) {
               <ListGroupItem> {data.phoneNumber} </ListGroupItem>
             </ListGroup>
             <Card.Body>
-              <Card.Link className="contacts-word" href="#">Card Link</Card.Link>
-              <Card.Link className="contacts-word" href="#">Another Link</Card.Link>
+              <Card.Img src="https://image.flaticon.com/icons/png/512/907/907838.png" width="50" height="50" hspace="10"></Card.Img>
+              <Card.Img src="https://image.flaticon.com/icons/png/512/1160/1160990.png" width="50" height="50" hspace="10"></Card.Img>
             </Card.Body>
           </Card>
         </Col>
