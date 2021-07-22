@@ -2,6 +2,7 @@
 import cardData from "../../utils/cardData";
 import { Card, ListGroup, ListGroupItem, Row, Col } from "react-bootstrap";
 import "../../../src/index.css";
+import rose from '../../assets/images/rose.png'
 
 /**
  *  create a post request to backend to get cards
@@ -18,7 +19,7 @@ function Cards(props) {
       {cardData.map((data, idx) => (
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+            <Card.Img variant="top" src={rose}/>
             <Card.Body>
               <Card.Title>
                 {data.firstName} {data.lastName}
