@@ -3,7 +3,7 @@
 import cardData from "../../utils/cardData";
 import { Card, ListGroup, ListGroupItem, Row, Col } from "react-bootstrap";
 import "../../../src/index.css";
-import rose from '../../assets/images/rose.png'
+// import rose from '../../assets/images/rose.png'
 
 /**
  *  create a post request to backend to get cards
