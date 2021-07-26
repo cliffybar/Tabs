@@ -20,7 +20,7 @@ function Cards(props) {
       {cardData.map((data, idx) => (
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={rose} />
+            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
             <Card.Body>
               <Card.Title>
                 {data.firstName} {data.lastName}
